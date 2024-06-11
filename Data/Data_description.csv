@@ -1,0 +1,23 @@
+Variable Name,Description,Category
+Term deposit,"Has the client subscribed a term deposit? 1 if yes, 0 if no.","Binary ('1', '0')"
+Age,Age of Customer in Years,Numeric
+Job,Job Status,Categorical
+Marital,Marital Status,Categorical
+Education,Level of education,Categorical
+Default,Default Status – is there a history of default,Categorical
+Housing,Has availed Housing Loan?,Categorical
+Loan,Has availed Personal Loan?,Categorical
+Contact,Contact communication type (landline vs mobile phone),Categorical
+Month,Last contact month of year,Categorical
+Day_of_week,Last contact day of the week,Categorical
+Duration,"Last contact duration, in seconds",Numeric
+Campaign,# of contacts performed during this campaign and for this client (includes last contact),Numeric
+Pdays,# of days that passed by after the client was last contacted from the previous campaign (999 means client was not contacted in the previous campaign),Numeric
+Previous,# of contacts performed before this campaign and for this client,Numeric
+Ethnicity,"Caucasian is the reference ethnic category: Is the customer of African ethnicity? 1=Yes, 0=No",Numeric
+Poutcome,Outcome of the previous marketing campaign,Categorical
+Emp.var.rate,Employment variation rate: quarterly indicator,Numeric
+Cons.price.idx,Consumer price index: monthly indicator,Numeric
+Cons.conf.idx,Consumer confidence index: monthly indicator,Numeric
+Euribor (3m),Euribor 3 month rate,Numeric
+Nr.employed,# of employees: quarterly indicator,Numeric
